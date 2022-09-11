@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fcc5c5;
+}
+h1 {
+    color: #006a4e;
+    font-family: 'water';
+    text-align: center;
+    margin-top: 200px;
+}
+div {
+    margin: 50px;
+    text-align: center;
+}
+a {
+    text-align: center;
+    font-family: 'magic';
+    font-size: 20px;
+    background-color: #006a4e;
+    color: #fcc5c5;
+    padding: 10px;
+    border-radius: 10px;
+}
+a:hover {
+    background-color: #fcc5c5;
+    color: #006a4e;
+    border: 1px solid #006a4e;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: water;
+    src: url(asset/Water\ Galon.ttf);
+}
+@font-face {
+    font-family: magic;
+    src: url(asset/Magic\ Dreams.ttf);
+}

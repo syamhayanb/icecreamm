@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: #fcc5c5;
+}
+.wrap {
+    margin: auto;
+    width: 1200px;
+}
+#header .wrap {
+    width: 100%;
+    text-align: center;
+}
+#header h1 {
+    color: #006a4e;
+    margin-top: 20px;
+    font-family: 'water';
+    font-weight: normal;
+    font-size: 100px;
+}
+.hero {
+    width: 80%;
+    border-radius: 20px;
+    background-color: #006a4e;
+    margin: 50px auto;
+}
+.hero img {
+    width: 62%;
+}
+.buy a {
+    letter-spacing: 2px;
+    font-family: 'magic';
+    background-color: #006a4e;
+    color: #fcc5c5;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.buy a:hover {
+    border-radius: 10px;
+    background-color: #fcc5c5;
+    border: #006a4e solid 1px;
+    color:#006a4e;
+    transition: 0.5s;
+    padding: 10px 15px;
+}
+#body {
+    margin-top: 100px;
+}
+#body .judul {
+    color: #006a4e;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'water';
+}
+.card {
+    margin: 40px;
+    padding: 20px;
+    background-color: #006a4e;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.cardlist {
+    background-color: #fcc5c5;
+    border-radius: 10px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+}
+.cardinfo {
+    font-family: magic;
+}
+.cardinfo p {
+    font-size: 20px;
+    margin: 5px;
+}
+.cardinfo a {
+    color: #fcc5c5;
+    background-color: #006a4e;
+    padding: 7px;
+    margin: 5px;
+} 
+.cardinfo a:hover {
+    color: #006a4e;
+    background-color: #fcc5c5;
+    border: #006a4e 1px solid;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.cardlist img{
+    height: 100%;
+    width: 80%;
+}
+#footer {
+    text-align: center;
+    height: 70px;
+    background-color: #006a4e;
+}
+#footer p {
+    padding-top: 30px;
+    font-family: 'magic';
+}
+
+
+
+
+
+@font-face {
+    font-family: water;
+    src: url(asset/Water\ Galon.ttf);
+}
+@font-face {
+    font-family: magic;
+    src: url(asset/Magic\ Dreams.ttf);
+}
+
+
+
+@media (max-width: 1200px) {
+    .wrap {
+        width: 100%;
+    }
+}
+@media (max-width: 820px) {
+    #header h1 {
+        font-size: 40px;
+    }
+    #body .judul {
+        font-size: 20px;
+    }
+    .card {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
